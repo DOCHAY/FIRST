@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   display: flex;
+   background-color: black;
+   text-align: center;
+   border-radius: 5px;
+}
+.container{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    line-height: 15px;
+    background-color: black;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: white;
+}
+.menu ul li:hover{
+    /* background-color: azure; */
+    /* border-radius: 2px; */
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-left: 20px;
+}
+header p{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+header span{
+    font-size: 35px;
+}
+/* .sub-menu{
+    display: none;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 15px;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu ul li{
+    background-color: transparent;
+    width: 150px;
+    padding: 10px;
+} */
+.sub-menu{
+    display: none;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-left: -35px;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+  
+}
+.menu ul li:hover .sub-menu ul li{
+background-color: transparent;
+width: 80px;
+padding: 5px;
+border-bottom: 2px dotted #fff;
+border-radius: 0;
+}
+
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+    color: chartreuse;
+    background-color: black;
+}
+.main{
+    background-image: url(image/sercarr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    
+}
+.section{
+    line-height: 4em;
+    color: rgb(158, 156, 156);
+    margin-top: 100px;
+    padding-left: 50px;
+    justify-content: space-around;
+    
+}
+.section h1{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: arial;
+}
+.section p{
+    font-size: 25px;
+    color: white;
+    justify-content: space-between;
+}
+.section button{
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+.section button:hover{
+    background-color: red;
+}
+
+.whitebg{
+    background-color: white;
+    height: 100vh;
+    margin-top: 200px;
+}
+.text h1{
+    color: red;
+text-align: center;
+justify-content: space-between;
+letter-spacing: 5px;
+padding-bottom: 20px;
+font-weight: bolder;
+}
+.text h3{
+text-align: center;
+}
+.whitebag{
+    background-color: white;
+    height: 40vh;
+}
+.whitebag .center .text{
+    margin-top: 50px;
+}

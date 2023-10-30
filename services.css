@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(182, 177, 177);
+}
+/* .container{
+    width: 80%;
+    margin: 0 auto;
+} */
+.sect1{
+    margin-top: 150px;
+    background-image: url(image/sercarrr.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.service{
+    text-align: center;
+    margin-bottom: 650px;
+}
+.service h1{
+    /* text-align: center; */
+    font-family: Calibri (Body);
+    font-size: 40px;
+}
+.sect2{
+    background-color: rgb(198, 198, 198);
+}
+.aboutf{
+    display: inline;
+    padding-left: 150px;
+}
+.aboutf h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    padding-left: 150px;
+}
+.aboutf p{
+    font-size: 18px;
+    font-family: Helvetica;
+    padding-left: 150px;
+}
+.aboutf li{
+    font-size: 18px;
+    font-family: Helvetica;
+    padding-left: 150px;
+}
+.imagesa{
+    text-align: right;
+    margin-bottom: 140px;
+    padding-right: 50px;
+}
